@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f83854f9275c07f4eb5bf2552fbe1b61, type: 3}
+  m_Name: FlatEntry
+  m_EditorClassIdentifier: 
+  description: The flat is sparsely furnished but busy with piles of stuff that looks
+    more like trash than belongings. The small hallway leads to four more rooms.
+  roomName: flat entry
+  exits:
+  - keyString: bathroom
+    exitDescription: The *bathroom door is on the opposing end. You have a clear
+      view of the toilet.
+    exitResponse: 
+    valueRoom: {fileID: 11400000, guid: 55e6250d99b80d44fb66475a515fe661, type: 2}
+  - keyString: bedroom
+    exitDescription: Light radiates from the *bedroom.
+    exitResponse: 
+    valueRoom: {fileID: 11400000, guid: f16d4eb23575e9149a5c076d7cc33585, type: 2}
+  - keyString: kitchen
+    exitDescription: The doors on the left side lead to the *kitchen and *living
+      room.
+    exitResponse: 
+    valueRoom: {fileID: 11400000, guid: 678f5c36b953b8a44b69e6f01e39414f, type: 2}
+  interactableObjectsInRoom:
+  - {fileID: 11400000, guid: f827f8658a648af488d34e48964a2a45, type: 2}
+  - {fileID: 11400000, guid: 40798053602217b4f93569b8533e7bdd, type: 2}

@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f83854f9275c07f4eb5bf2552fbe1b61, type: 3}
+  m_Name: Intro
+  m_EditorClassIdentifier: 
+  description: ".-----------------------------.\r\n       POSSIBLE INPUTS:\r\n       
+    [go *place]\r\n        [examine *object]\r\n        [take *object]\r\n       
+    [pockets]\r\n        [use *object]\r\n        [look]\r\n        [help]              
+    \r\n'----------------------------'\r\n\nyou are simultaneously floating in nothingness
+    and being crushed by an incredible force        the noise  is overwhelming       
+    lights flicker right into your face        you don't want this        a sharp
+    stench in your nose        needles piercing through your limbs        you close
+    your eyes"
+  roomName: intro
+  exits:
+  - keyString: out
+    exitDescription: Type [go out] to continue.
+    exitResponse: "Thank fuck it's quiet now.\nYou try to open your eyes. What you
+      see is dark and obscure\u2026 \r\nYou are sitting on a chair(?) \r\nYou start
+      to see clearer:\r"
+    valueRoom: {fileID: 11400000, guid: 62ca809c85972804993d002b09bf7946, type: 2}
+  interactableObjectsInRoom:
+  - {fileID: 11400000, guid: f827f8658a648af488d34e48964a2a45, type: 2}

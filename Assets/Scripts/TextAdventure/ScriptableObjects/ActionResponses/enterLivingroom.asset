@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03ba6049e29986d4abe91132bccf779f, type: 3}
+  m_Name: enterLivingroom
+  m_EditorClassIdentifier: 
+  requiredString: flat entry
+  roomToChangeTo: {fileID: 11400000, guid: 3457c75e8c6d17241b227ba606171897, type: 2}
+  roomChangeText: 

@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d817b6cbec075a64896771790e42d76f, type: 3}
+  m_Name: fridge
+  m_EditorClassIdentifier: 
+  noun: fridge
+  description: The *fridge is small and old. It humms very loudly.
+  interactions:
+  - inputAction: {fileID: 11400000, guid: becf888a45f222d4eba7dedf1a6f5d72, type: 2}
+    textResponse: "You open the fridge, there is not much in it:\n- an aluminum dish
+      with takeout food\n- three bottles of a beer called \"K\xF6lsch\"\n- and a
+      bunch of condiments in the door"
+    actionResponse: {fileID: 0}

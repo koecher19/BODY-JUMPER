@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f83854f9275c07f4eb5bf2552fbe1b61, type: 3}
+  m_Name: back alley
+  m_EditorClassIdentifier: 
+  description: A street lamp illuminates a crampy back alley. You hear noises of
+    people and cars. Seems like you  ended up in a city.
+  roomName: back alley
+  exits:
+  - keyString: machine
+    exitDescription: The *machine sits with its back against a brick building, embedded
+      in a pile of trash.
+    exitResponse: You reopen the front panel of the brain machine and crawl into
+      its innards.
+    valueRoom: {fileID: 11400000, guid: 62ca809c85972804993d002b09bf7946, type: 2}
+  - keyString: hole
+    exitDescription: There is a *hole in one of the concrete walls. It leads into
+      the building. The door is wide open.
+    exitResponse: 
+    valueRoom: {fileID: 11400000, guid: a19cdcc5e6256d54abf8bbc1a359c319, type: 2}
+  interactableObjectsInRoom:
+  - {fileID: 11400000, guid: 6c07ae80f0369da4cbc751567a688fc2, type: 2}
+  - {fileID: 11400000, guid: 40a419b46129aa646a07f7238edafd5c, type: 2}
+  - {fileID: 11400000, guid: f827f8658a648af488d34e48964a2a45, type: 2}

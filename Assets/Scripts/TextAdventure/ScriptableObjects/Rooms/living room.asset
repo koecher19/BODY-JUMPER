@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f83854f9275c07f4eb5bf2552fbe1b61, type: 3}
+  m_Name: living room
+  m_EditorClassIdentifier: 
+  description: You enter a cave with a sofa on one side and a big TV on the other
+    side.
+  roomName: living room
+  exits:
+  - keyString: back
+    exitDescription: 
+    exitResponse: 
+    valueRoom: {fileID: 11400000, guid: 0b71b3777246fcc4087bd0beb2f64494, type: 2}
+  interactableObjectsInRoom:
+  - {fileID: 11400000, guid: 796480e463272744ca9452f2f7f875ba, type: 2}
+  - {fileID: 11400000, guid: 2deb9991503cc4e46b058ea02dfe8236, type: 2}
+  - {fileID: 11400000, guid: 132746eadad552142b3b89b65d620109, type: 2}

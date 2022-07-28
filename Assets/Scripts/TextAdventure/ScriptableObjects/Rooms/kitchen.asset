@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f83854f9275c07f4eb5bf2552fbe1b61, type: 3}
+  m_Name: kitchen
+  m_EditorClassIdentifier: 
+  description: 'The kitchen is very small.
+
+    There is a pile of dirty dishes towering
+    up in the sink.
+
+    A small pottet plant has completely dried up and died.'
+  roomName: kitchen
+  exits:
+  - keyString: back
+    exitDescription: 
+    exitResponse: 
+    valueRoom: {fileID: 11400000, guid: 7b35c50dd5debb849be76bfb690e4c50, type: 2}
+  interactableObjectsInRoom:
+  - {fileID: 11400000, guid: d6181c2cafc9e774eb829ee10fb7cece, type: 2}
