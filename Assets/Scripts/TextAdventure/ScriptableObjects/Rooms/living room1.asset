@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f83854f9275c07f4eb5bf2552fbe1b61, type: 3}
   m_Name: living room1
   m_EditorClassIdentifier: 
-  description: Press [return] to continue...
+  description: END OF DEMO
   roomName: living room1
   exits:
   - keyString: back

@@ -20,10 +20,8 @@ MonoBehaviour:
 
       - an ash tray
 
-      - a *note
-
       - a *phone
 
-      -
-      training weights'
+      - training
+      weights'
     actionResponse: {fileID: 0}

@@ -458,7 +458,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 02a7417a50dc1ce4ea838a1236701a7d, type: 2}
   helpText: ".-----------------------------.\r\n       POSSIBLE INPUTS:\r\n       
     [go *place*]\r\n        [examine *object*]\r\n        [take *object*]\r\n       
-    [pockets]\r\n        [use *object*]\r\n        [look]\r\n        [help]              
+    [pockets]\r\n        [use *object*]\r\n        [look]\r \n        [help]           
     \r\n'----------------------------'\r\n"
   roomNavigation: {fileID: 0}
   interactionDescriptionsInRoom: []
